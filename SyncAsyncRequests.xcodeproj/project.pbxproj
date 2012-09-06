@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E704B015F6107900BF1512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704AF15F6107900BF1512 /* UIKit.framework */; };
+		B1E704B215F6107900BF1512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704B115F6107900BF1512 /* Foundation.framework */; };
+		B1E704B415F6107900BF1512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704B315F6107900BF1512 /* CoreGraphics.framework */; };
+		B1E704BA15F6107900BF1512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E704B815F6107900BF1512 /* InfoPlist.strings */; };
+		B1E704BC15F6107900BF1512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E704BB15F6107900BF1512 /* main.m */; };
+		B1E704C015F6107900BF1512 /* SyncAsyncAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E704BF15F6107900BF1512 /* SyncAsyncAppDelegate.m */; };
+		B1E704C315F6107900BF1512 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E704C115F6107900BF1512 /* MainStoryboard.storyboard */; };
+		B1E704C615F6107900BF1512 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E704C515F6107900BF1512 /* SyncViewController.m */; };
+		B1E704CE15F6107900BF1512 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704CD15F6107900BF1512 /* SenTestingKit.framework */; };
+		B1E704CF15F6107900BF1512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704AF15F6107900BF1512 /* UIKit.framework */; };
+		B1E704D015F6107900BF1512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E704B115F6107900BF1512 /* Foundation.framework */; };
+		B1E704D815F6107900BF1512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E704D615F6107900BF1512 /* InfoPlist.strings */; };
+		B1E704DB15F6107900BF1512 /* SyncAsyncRequestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E704DA15F6107900BF1512 /* SyncAsyncRequestsTests.m */; };
+		B1EA3F7315F8BDEF00BC7E5E /* AsyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EA3F7215F8BDEF00BC7E5E /* AsyncViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E704D115F6107900BF1512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E704A215F6107900BF1512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E704AA15F6107900BF1512;
+			remoteInfo = SyncAsyncRequests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1E704AB15F6107900BF1512 /* SyncAsyncRequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncAsyncRequests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E704AF15F6107900BF1512 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1E704B115F6107900BF1512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1E704B315F6107900BF1512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1E704B715F6107900BF1512 /* SyncAsyncRequests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncAsyncRequests-Info.plist"; sourceTree = "<group>"; };
+		B1E704B915F6107900BF1512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1E704BB15F6107900BF1512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1E704BD15F6107900BF1512 /* SyncAsyncRequests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyncAsyncRequests-Prefix.pch"; sourceTree = "<group>"; };
+		B1E704BE15F6107900BF1512 /* SyncAsyncAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncAsyncAppDelegate.h; sourceTree = "<group>"; };
+		B1E704BF15F6107900BF1512 /* SyncAsyncAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncAsyncAppDelegate.m; sourceTree = "<group>"; };
+		B1E704C215F6107900BF1512 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B1E704C415F6107900BF1512 /* SyncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		B1E704C515F6107900BF1512 /* SyncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		B1E704CC15F6107900BF1512 /* SyncAsyncRequestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncAsyncRequestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E704CD15F6107900BF1512 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B1E704D515F6107900BF1512 /* SyncAsyncRequestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncAsyncRequestsTests-Info.plist"; sourceTree = "<group>"; };
+		B1E704D715F6107900BF1512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1E704D915F6107900BF1512 /* SyncAsyncRequestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncAsyncRequestsTests.h; sourceTree = "<group>"; };
+		B1E704DA15F6107900BF1512 /* SyncAsyncRequestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncAsyncRequestsTests.m; sourceTree = "<group>"; };
+		B1EA3F7115F8BDEF00BC7E5E /* AsyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncViewController.h; sourceTree = "<group>"; };
+		B1EA3F7215F8BDEF00BC7E5E /* AsyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E704A815F6107900BF1512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704B015F6107900BF1512 /* UIKit.framework in Frameworks */,
+				B1E704B215F6107900BF1512 /* Foundation.framework in Frameworks */,
+				B1E704B415F6107900BF1512 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E704C815F6107900BF1512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704CE15F6107900BF1512 /* SenTestingKit.framework in Frameworks */,
+				B1E704CF15F6107900BF1512 /* UIKit.framework in Frameworks */,
+				B1E704D015F6107900BF1512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E704A015F6107900BF1512 = {
+			isa = PBXGroup;
+			children = (
+				B1E704B515F6107900BF1512 /* SyncAsyncRequests */,
+				B1E704D315F6107900BF1512 /* SyncAsyncRequestsTests */,
+				B1E704AE15F6107900BF1512 /* Frameworks */,
+				B1E704AC15F6107900BF1512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E704AC15F6107900BF1512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704AB15F6107900BF1512 /* SyncAsyncRequests.app */,
+				B1E704CC15F6107900BF1512 /* SyncAsyncRequestsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E704AE15F6107900BF1512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704AF15F6107900BF1512 /* UIKit.framework */,
+				B1E704B115F6107900BF1512 /* Foundation.framework */,
+				B1E704B315F6107900BF1512 /* CoreGraphics.framework */,
+				B1E704CD15F6107900BF1512 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1E704B515F6107900BF1512 /* SyncAsyncRequests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704BE15F6107900BF1512 /* SyncAsyncAppDelegate.h */,
+				B1E704BF15F6107900BF1512 /* SyncAsyncAppDelegate.m */,
+				B1E704C115F6107900BF1512 /* MainStoryboard.storyboard */,
+				B1E704C415F6107900BF1512 /* SyncViewController.h */,
+				B1E704C515F6107900BF1512 /* SyncViewController.m */,
+				B1E704B615F6107900BF1512 /* Supporting Files */,
+				B1EA3F7115F8BDEF00BC7E5E /* AsyncViewController.h */,
+				B1EA3F7215F8BDEF00BC7E5E /* AsyncViewController.m */,
+			);
+			path = SyncAsyncRequests;
+			sourceTree = "<group>";
+		};
+		B1E704B615F6107900BF1512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704B715F6107900BF1512 /* SyncAsyncRequests-Info.plist */,
+				B1E704B815F6107900BF1512 /* InfoPlist.strings */,
+				B1E704BB15F6107900BF1512 /* main.m */,
+				B1E704BD15F6107900BF1512 /* SyncAsyncRequests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1E704D315F6107900BF1512 /* SyncAsyncRequestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704D915F6107900BF1512 /* SyncAsyncRequestsTests.h */,
+				B1E704DA15F6107900BF1512 /* SyncAsyncRequestsTests.m */,
+				B1E704D415F6107900BF1512 /* Supporting Files */,
+			);
+			path = SyncAsyncRequestsTests;
+			sourceTree = "<group>";
+		};
+		B1E704D415F6107900BF1512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E704D515F6107900BF1512 /* SyncAsyncRequestsTests-Info.plist */,
+				B1E704D615F6107900BF1512 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E704AA15F6107900BF1512 /* SyncAsyncRequests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E704DE15F6107900BF1512 /* Build configuration list for PBXNativeTarget "SyncAsyncRequests" */;
+			buildPhases = (
+				B1E704A715F6107900BF1512 /* Sources */,
+				B1E704A815F6107900BF1512 /* Frameworks */,
+				B1E704A915F6107900BF1512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncAsyncRequests;
+			productName = SyncAsyncRequests;
+			productReference = B1E704AB15F6107900BF1512 /* SyncAsyncRequests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E704CB15F6107900BF1512 /* SyncAsyncRequestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E704E115F6107900BF1512 /* Build configuration list for PBXNativeTarget "SyncAsyncRequestsTests" */;
+			buildPhases = (
+				B1E704C715F6107900BF1512 /* Sources */,
+				B1E704C815F6107900BF1512 /* Frameworks */,
+				B1E704C915F6107900BF1512 /* Resources */,
+				B1E704CA15F6107900BF1512 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E704D215F6107900BF1512 /* PBXTargetDependency */,
+			);
+			name = SyncAsyncRequestsTests;
+			productName = SyncAsyncRequestsTests;
+			productReference = B1E704CC15F6107900BF1512 /* SyncAsyncRequestsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E704A215F6107900BF1512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SyncAsync;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B1E704A515F6107900BF1512 /* Build configuration list for PBXProject "SyncAsyncRequests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1E704A015F6107900BF1512;
+			productRefGroup = B1E704AC15F6107900BF1512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E704AA15F6107900BF1512 /* SyncAsyncRequests */,
+				B1E704CB15F6107900BF1512 /* SyncAsyncRequestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E704A915F6107900BF1512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704BA15F6107900BF1512 /* InfoPlist.strings in Resources */,
+				B1E704C315F6107900BF1512 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E704C915F6107900BF1512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704D815F6107900BF1512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1E704CA15F6107900BF1512 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E704A715F6107900BF1512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704BC15F6107900BF1512 /* main.m in Sources */,
+				B1E704C015F6107900BF1512 /* SyncAsyncAppDelegate.m in Sources */,
+				B1E704C615F6107900BF1512 /* SyncViewController.m in Sources */,
+				B1EA3F7315F8BDEF00BC7E5E /* AsyncViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E704C715F6107900BF1512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E704DB15F6107900BF1512 /* SyncAsyncRequestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E704D215F6107900BF1512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E704AA15F6107900BF1512 /* SyncAsyncRequests */;
+			targetProxy = B1E704D115F6107900BF1512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1E704B815F6107900BF1512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E704B915F6107900BF1512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1E704C115F6107900BF1512 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E704C215F6107900BF1512 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E704D615F6107900BF1512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E704D715F6107900BF1512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E704DC15F6107900BF1512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1E704DD15F6107900BF1512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E704DF15F6107900BF1512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncAsyncRequests/SyncAsyncRequests-Prefix.pch";
+				INFOPLIST_FILE = "SyncAsyncRequests/SyncAsyncRequests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1E704E015F6107900BF1512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncAsyncRequests/SyncAsyncRequests-Prefix.pch";
+				INFOPLIST_FILE = "SyncAsyncRequests/SyncAsyncRequests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1E704E215F6107900BF1512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SyncAsyncRequests.app/SyncAsyncRequests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncAsyncRequests/SyncAsyncRequests-Prefix.pch";
+				INFOPLIST_FILE = "SyncAsyncRequestsTests/SyncAsyncRequestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B1E704E315F6107900BF1512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SyncAsyncRequests.app/SyncAsyncRequests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SyncAsyncRequests/SyncAsyncRequests-Prefix.pch";
+				INFOPLIST_FILE = "SyncAsyncRequestsTests/SyncAsyncRequestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E704A515F6107900BF1512 /* Build configuration list for PBXProject "SyncAsyncRequests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E704DC15F6107900BF1512 /* Debug */,
+				B1E704DD15F6107900BF1512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E704DE15F6107900BF1512 /* Build configuration list for PBXNativeTarget "SyncAsyncRequests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E704DF15F6107900BF1512 /* Debug */,
+				B1E704E015F6107900BF1512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E704E115F6107900BF1512 /* Build configuration list for PBXNativeTarget "SyncAsyncRequestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E704E215F6107900BF1512 /* Debug */,
+				B1E704E315F6107900BF1512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E704A215F6107900BF1512 /* Project object */;
+}
