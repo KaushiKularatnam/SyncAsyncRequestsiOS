@@ -27,7 +27,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
     [_responseData appendData:data];
-    _json_string = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+    _json_string = [[NSString alloc] initWithData:_responseData encoding:NSUTF8StringEncoding];
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
@@ -47,6 +47,7 @@
 {
     [super viewDidAppear:YES];
     _textView.text = _json_string;
+    NSLog(@"PRINTING TWITTER %@",_json_string);
 }
 
 
