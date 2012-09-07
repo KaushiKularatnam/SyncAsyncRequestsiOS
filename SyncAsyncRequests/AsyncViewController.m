@@ -47,7 +47,6 @@
 {
     [super viewDidAppear:YES];
     _textView.text = _json_string;
-    NSLog(@"PRINTING TWITTER %@",_json_string);
 }
 
 
